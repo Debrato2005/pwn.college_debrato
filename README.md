@@ -8,7 +8,7 @@ Connect to pwn.college via ssh using
 ssh -i ./key hacker@dojo.pwn.college-->
 
 ### Table of Contents
-- [Hello Hackers](./Writeups/HelloHackers.md)
+- [Hello Hackers](./Writeups/Hello_Hackers.md)
 - [Pondering Paths](./Writeups/Pondering_Paths.md)
 - [Comprehending Commands](./Writeups/Comprehending_Commands.md)
 - [Digesting Documentation](./Writeups/Digesting_Documentation.md)
@@ -22,6 +22,6 @@ ssh -i ./key hacker@dojo.pwn.college-->
 - [Chaining Commands](./Writeups/Chaining_Commands.md)
 - [Terminal Multiplexing](./Writeups/Terminal_Multiplexing.md)
 - [Pondering PATH](./Writeups/Pondering_PATH.md)
-- [Silly Shenanigans](./Writeups/Silly_Shenanigans.md)
-- [Daring Destruction](./Writeups/Daring_Destruction.md)
+<!-- - [Silly Shenanigans](./Writeups/Silly_Shenanigans.md)
+- [Daring Destruction](./Writeups/Daring_Destruction.md) -->
 
