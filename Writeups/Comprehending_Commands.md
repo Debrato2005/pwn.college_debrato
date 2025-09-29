@@ -107,7 +107,7 @@ hacker@commands~grepping-for-a-needle-in-a-haystack:~$ grep pwn.college /challen
 pwn.college{goV0uO1Id9ESvxNb5hKYUoNAppY.ddTM4QDLxATN1czW}
 hacker@commands~grepping-for-a-needle-in-a-haystack:~$ 
 ```
-Because the flag always starts with the text pwn.college we can directly grep ~pwn.college` with the given path.
+Because the flag always starts with the text pwn.college we can directly grep `pwn.college` with the given path.
 ## 5 comparing files
 When looking for changes between similar files, eyeballing them might not be the most efficient approach! This is where the diff command becomes invaluable.
 
