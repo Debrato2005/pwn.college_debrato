@@ -6,11 +6,11 @@ In this module, we will learn to view and interact with processes in a number of
 ## 1 Listing Processes
 First, we will learn to list running processes using the ps command. Depending on whom you ask, ps either stands for "process snapshot" or "process status", and it lists processes. By default, ps just lists the processes running in your terminal, which honestly isn't very useful:
 
-hacker@dojo:~$ ps
+hacker@dojo:~$ `ps
     PID TTY          TIME CMD
     329 pts/0    00:00:00 bash
     349 pts/0    00:00:00 ps
-hacker@dojo:~$
+hacker@dojo:~$`
 In the above example, we have the shell (bash) and the ps process itself, and that's all that's running on that specific terminal. We also see that each process has a numerical identifier (the Process ID, or PID), which is a number that uniquely identifies every running process in a Linux environment. We also see the terminal on which the commands are running (in this case, the designation pts/0), and the total amount of cpu time that the process has eaten up so far (since these processes are very undemanding, they have yet to eat up even 1 second!).
 
 In the majority of cases, this is all that you'll see with a default ps. To make it useful, we need to pass a few arguments.
